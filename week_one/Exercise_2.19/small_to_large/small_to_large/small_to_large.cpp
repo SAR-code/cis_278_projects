@@ -11,9 +11,9 @@ using namespace std;
 
 // declare variables for user input
 
-int num_1;
-int num_2;
-int num_3;
+int num_1{ 0 };
+int num_2{ 0 };
+int num_3{ 0 };
 
 
 
