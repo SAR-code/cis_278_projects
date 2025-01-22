@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_one\\Exercise_2.29\\squares_cubes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D02714C-88AE-4753-BD79-422D81727F2B}|squares_cubes\\squares_cubes.vcxproj|C:\\Github\\cis_278_projects\\week_one\\Exercise_2.29\\squares_cubes\\squares_cubes\\squares_cubes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D02714C-88AE-4753-BD79-422D81727F2B}|squares_cubes\\squares_cubes.vcxproj|solutionrelative:squares_cubes\\squares_cubes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "squares_cubes.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_one\\Exercise_2.29\\squares_cubes\\squares_cubes\\squares_cubes.cpp",
+              "RelativeDocumentMoniker": "squares_cubes\\squares_cubes.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_one\\Exercise_2.29\\squares_cubes\\squares_cubes\\squares_cubes.cpp",
+              "RelativeToolTip": "squares_cubes\\squares_cubes.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T02:08:12.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
