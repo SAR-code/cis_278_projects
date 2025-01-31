@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_two\\Exercise_3.10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9F93B1-8E9D-4F5E-A104-81CC2FB77C13}|Exercise_3.10\\Exercise_3.10.vcxproj|C:\\Github\\cis_278_projects\\week_two\\Exercise_3.10\\Exercise_3.10\\Invoice.h.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E9F93B1-8E9D-4F5E-A104-81CC2FB77C13}|Exercise_3.10\\Exercise_3.10.vcxproj|solutionrelative:Exercise_3.10\\Invoice.h.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9F93B1-8E9D-4F5E-A104-81CC2FB77C13}|Exercise_3.10\\Exercise_3.10.vcxproj|C:\\Github\\cis_278_projects\\week_two\\Exercise_3.10\\Exercise_3.10\\Exercise_3.10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E9F93B1-8E9D-4F5E-A104-81CC2FB77C13}|Exercise_3.10\\Exercise_3.10.vcxproj|solutionrelative:Exercise_3.10\\Exercise_3.10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Invoice.h.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_two\\Exercise_3.10\\Exercise_3.10\\Invoice.h.cpp",
+              "RelativeDocumentMoniker": "Exercise_3.10\\Invoice.h.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_two\\Exercise_3.10\\Exercise_3.10\\Invoice.h.cpp",
+              "RelativeToolTip": "Exercise_3.10\\Invoice.h.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T05:49:47.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exercise_3.10.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_two\\Exercise_3.10\\Exercise_3.10\\Exercise_3.10.cpp",
+              "RelativeDocumentMoniker": "Exercise_3.10\\Exercise_3.10.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_two\\Exercise_3.10\\Exercise_3.10\\Exercise_3.10.cpp",
+              "RelativeToolTip": "Exercise_3.10\\Exercise_3.10.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T02:48:25.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
