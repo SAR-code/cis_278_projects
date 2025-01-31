@@ -1,3 +1,11 @@
+/*
+* script: Invoice.h.cpp
+* action: Contains the Invoice class
+* author: D.M
+* date: 29JAN25
+*/
+
+
 #include <iostream>
 #include <string>
 
