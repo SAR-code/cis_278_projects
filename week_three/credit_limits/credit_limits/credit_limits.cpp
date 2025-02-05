@@ -1,6 +1,7 @@
 /*
 * script: credit_limits.cpp
-* action: This program demonstrates the date class functionality
+* action: This program determines whether a customer exceeded the credit limit
+*         on a charge account.
 * author: D.M
 * date: 04FEB25
 */
