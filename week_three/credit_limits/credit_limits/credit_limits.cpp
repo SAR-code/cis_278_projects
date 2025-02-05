@@ -1,0 +1,68 @@
+/*
+* script: credit_limits.cpp
+* action: This program demonstrates the date class functionality
+* author: D.M
+* date: 04FEB25
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    // declare initial variables required
+    int userAccount;
+    float beginningBal;
+    float totalCharges;
+    float totalCredits;
+    float creditLimit;
+    
+
+    // Prompt the user to enter account number
+    cout << "Enter account number (or -1 to quit): ";
+    cin >> userAccount;
+
+    // establish while loop to interact with the account
+    while (userAccount != -1) {
+
+        // prompt the user to enter beginning balance
+        cout << "Enter beginning balance: ";
+        cin >> beginningBal;
+
+        // prompt user to enter total charges
+        cout << "Enter total charges: ";
+        cin >> totalCharges;
+
+        //prompt user to enter total credits
+        cout << "Enter total credits: ";
+        cin >> totalCredits;
+
+        // promt user to enter credit limit
+        cout << "Enter credit limit: ";
+        cin >> creditLimit;
+
+        // calculates new balance
+        float newBalance = beginningBal + totalCharges - totalCredits;
+
+        // display updated bank info
+        cout << "New balance is " << newBalance << endl;
+   
+        // displays updated bank info if credit limit exceeded
+        if (newBalance > creditLimit) {
+            cout << "Account: " << userAccount << endl;
+            cout << "Credit limit: " << creditLimit << endl;
+            cout << "Balance: " << newBalance << endl;
+            cout << "Credit Limit Exceeded";
+        }
+
+        cout << "\n\nEnter account number (or -1 to quit): ";
+        cin >> userAccount;
+    }
+
+    
+
+    return 0;
+}
+
+
