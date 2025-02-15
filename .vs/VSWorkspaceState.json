@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\week_three\\credit_limits",
+    "\\week_three\\credit_limits\\credit_limits",
+    "\\week_two\\Exercise_3.10",
+    "\\week_two\\Exercise_3.10\\Exercise_3.10"
   ],
-  "SelectedNode": "\\sales_commission.sln",
+  "SelectedNode": "\\week_four",
   "PreviewInSolutionExplorer": false
 }
