@@ -7,6 +7,7 @@
 */
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -51,9 +52,9 @@ int main()
    
         // displays updated bank info if credit limit exceeded
         if (newBalance > creditLimit) {
-            cout << "Account: " << userAccount << endl;
-            cout << "Credit limit: " << creditLimit << endl;
-            cout << "Balance: " << newBalance << endl;
+            cout << "Account: " << fixed << setprecision(2) << userAccount << endl;
+            cout << "Credit limit: " << fixed << setprecision(2) << creditLimit << endl;
+            cout << "Balance: " << fixed << setprecision(2) << newBalance << endl;
             cout << "Credit Limit Exceeded";
         }
 
