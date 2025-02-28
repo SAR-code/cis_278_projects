@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_five\\computer_assisted_instruction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6C8CE5-48E9-433C-A70A-C1AE83AD028E}|computer_assisted_instruction\\computer_assisted_instruction.vcxproj|C:\\Github\\cis_278_projects\\week_five\\computer_assisted_instruction\\computer_assisted_instruction\\computer_assisted_instruction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B6C8CE5-48E9-433C-A70A-C1AE83AD028E}|computer_assisted_instruction\\computer_assisted_instruction.vcxproj|solutionrelative:computer_assisted_instruction\\computer_assisted_instruction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "computer_assisted_instruction.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_five\\computer_assisted_instruction\\computer_assisted_instruction\\computer_assisted_instruction.cpp",
+              "RelativeDocumentMoniker": "computer_assisted_instruction\\computer_assisted_instruction.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_five\\computer_assisted_instruction\\computer_assisted_instruction\\computer_assisted_instruction.cpp",
+              "RelativeToolTip": "computer_assisted_instruction\\computer_assisted_instruction.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-27T20:35:14.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
