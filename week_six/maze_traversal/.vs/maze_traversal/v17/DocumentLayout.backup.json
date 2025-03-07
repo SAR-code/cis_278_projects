@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_six\\maze_traversal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD16399E-7A77-482A-947F-035D0D7AB32C}|maze_traversal\\maze_traversal.vcxproj|C:\\Github\\cis_278_projects\\week_six\\maze_traversal\\maze_traversal\\maze_traversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD16399E-7A77-482A-947F-035D0D7AB32C}|maze_traversal\\maze_traversal.vcxproj|solutionrelative:maze_traversal\\maze_traversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "maze_traversal.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_six\\maze_traversal\\maze_traversal\\maze_traversal.cpp",
+              "RelativeDocumentMoniker": "maze_traversal\\maze_traversal.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_six\\maze_traversal\\maze_traversal\\maze_traversal.cpp*",
+              "RelativeToolTip": "maze_traversal\\maze_traversal.cpp*",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwIQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-07T00:55:22.115Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
