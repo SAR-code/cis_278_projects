@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_six\\palindromes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36B03D71-AB65-47A8-BE82-C6D545013A35}|palindromes\\palindromes.vcxproj|C:\\Github\\cis_278_projects\\week_six\\palindromes\\palindromes\\palindromes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36B03D71-AB65-47A8-BE82-C6D545013A35}|palindromes\\palindromes.vcxproj|solutionrelative:palindromes\\palindromes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 232,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "palindromes.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_six\\palindromes\\palindromes\\palindromes.cpp",
+              "RelativeDocumentMoniker": "palindromes\\palindromes.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_six\\palindromes\\palindromes\\palindromes.cpp",
+              "RelativeToolTip": "palindromes\\palindromes.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-06T23:31:11.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
