@@ -33,7 +33,7 @@ void startGame() {
 	deck.shuffleCards();
 
 
-	// foor loop to deal 52 cards from the deck
+	// for loop to deal 52 cards from the deck
 
 	for (int idx = 0; idx < 52; ++idx) {
 		// aligns the columns neatly in the output
