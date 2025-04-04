@@ -1,14 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\week_eight",
     "\\week_eight\\Cards",
-    "\\week_eight\\Cards\\Cards",
-    "\\week_four\\calculate_sales",
-    "\\week_four\\calculate_sales\\calculate_sales",
-    "\\week_four\\calculate_sales\\calculate_sales\\x64",
-    "\\week_four\\calculate_sales\\calculate_sales\\x64\\Debug"
+    "\\week_eight\\Cards\\Cards"
   ],
-  "SelectedNode": "\\week_eight\\Cards\\Cards.sln",
+  "SelectedNode": "\\week_nine",
   "PreviewInSolutionExplorer": false
 }
