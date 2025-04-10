@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_ten\\Package_Delivery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72007373-014B-4318-A382-60A77CC857D2}|Package_Delivery\\Package_Delivery.vcxproj|C:\\Github\\cis_278_projects\\week_ten\\Package_Delivery\\Package_Delivery\\Package_Delivery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72007373-014B-4318-A382-60A77CC857D2}|Package_Delivery\\Package_Delivery.vcxproj|solutionrelative:Package_Delivery\\Package_Delivery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Package_Delivery.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_ten\\Package_Delivery\\Package_Delivery\\Package_Delivery.cpp",
+              "RelativeDocumentMoniker": "Package_Delivery\\Package_Delivery.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_ten\\Package_Delivery\\Package_Delivery\\Package_Delivery.cpp*",
+              "RelativeToolTip": "Package_Delivery\\Package_Delivery.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-10T20:58:25.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
