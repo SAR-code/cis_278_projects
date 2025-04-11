@@ -68,7 +68,7 @@ Package::Package(const Package& other)
 // Destructor
 Package::~Package()
 {
-	// No memory to free but destructor is defined for completeness
+	// Not sure if this is needed for memory but included for completeness
 
 }
 
