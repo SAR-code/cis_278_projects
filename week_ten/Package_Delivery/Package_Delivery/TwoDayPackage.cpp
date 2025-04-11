@@ -8,37 +8,40 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
+#include <stdexcept>
+#include <sstream>
 #include "TwoDayPackage.h"
 
 using namespace std;
 
 // Default constructor for TwoDayPackage class
 TwoDayPackage::TwoDayPackage(const string& sName, 
-						     const string& sAddress, 
-							 const string& sCity, 
-							 const string& sState, 
-							 const string& sZip, 
-							 const string& rName, 
-							 const string& rAddress, 
-							 const string& rCity, 
-							 const string& rState, 
-							 const string& rZip, 
-							 double wOunces, 
-							 double cPerOunce, 
-							 double flatFee)							
-							: Package(sName, 
-									  sAddress, 
-	                                  sCity, 
-	                                  sState, 
-	                                  sZip,
-	                                  rName, 
-	                                  rAddress, 
-	                                  rCity, 
-	                                  rState, 
-	                                  rZip,
-	                                  wOunces, 
-	                                  cPerOunce),
-	                                  flatFee(flatFee)
+				const string& sAddress, 
+				const string& sCity, 
+				const string& sState, 
+				const string& sZip, 
+				const string& rName, 
+				const string& rAddress, 
+				const string& rCity, 
+				const string& rState, 
+				const string& rZip, 
+				double wOunces, 
+				double cPerOunce, 
+				double flatFee)							
+				: Package(sName, 
+						sAddress, 
+	                    sCity, 
+	                    sState, 
+	                    sZip,
+	                    rName, 
+	                    rAddress, 
+	                    rCity, 
+	                    rState, 
+	                    rZip,
+	                    wOunces, 
+	                    cPerOunce),
+	                    flatFee(flatFee)
 {
 	setFlatFee(flatFee);
 }
@@ -83,6 +86,7 @@ double TwoDayPackage::calculateCost() const
 {
 	// Calculate the total cost including the flat fee
 	return (getWeightInOunces() * getCostPerOunce()) + flatFee;
+	
 }
 
 
@@ -91,20 +95,16 @@ std::string TwoDayPackage::toString() const
 {
 	// String representation of the TwoDayPackage
 
-	return std::string() + "TwoDayPackage: \n" +
-		"Sender: " + getSenderName() + "\n" +
-		"Sender Address: " + getSenderAddress() + "\n" +
-		"Sender City: " + getSenderCity() + "\n" +
-		"Sender State: " + getSenderState() + "\n" +
-		"Sender Zip: " + getSenderZip() + "\n" +
-		"Recipient: " + getRecipientName() + "\n" +
-		"Recipient Address: " + getRecipientAddress() + "\n" +
-		"Recipient City: " + getRecipientCity() + "\n" +
-		"Recipient State: " + getRecipientState() + "\n" +
-		"Recipient Zip: " + getRecipientZip() + "\n" +
-		"Weight (oz): " + std::to_string(getWeightInOunces()) + "\n" +
-		"Cost per ounce: $" + std::to_string(getCostPerOunce()) + "\n" +
-		"Flat Fee: $" + std::to_string(getFlatFee()) + "\n";
+	ostringstream oss;
+	oss << "Two-Day Package: \n"
+		<< Package::toString()
+		<< "\nTwo-Day Flat Fee: $"
+		<< fixed << setprecision(2)
+		<< flatFee;
+
+	return oss.str();
+
+
 }
 
 
