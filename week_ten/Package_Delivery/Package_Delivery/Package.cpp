@@ -7,6 +7,9 @@
 
 #include <iostream>
 #include <cstring>
+#include <iomanip>
+#include <stdexcept>
+#include <sstream>
 
 
 #include "Package.h"
@@ -16,17 +19,17 @@ using namespace std;
 // Default constructor for package class
 Package::Package(const std::string &sName, 
 				 const std::string &sAddress, 
-	             const std::string &sCity, 
-	             const std::string &sState, 
-	             const std::string &sZip, 
-	             const std::string &rName, 
-	             const std::string &rAddress, 
-	             const std::string &rCity, 
-	             const std::string &rState, 
-	             const std::string &rZip, 
-	             double wOunces, 
-	             double cPerOunce
-                ) : senderName(sName),
+				 const std::string &sCity, 
+				 const std::string &sState, 
+				 const std::string &sZip, 
+				 const std::string &rName, 
+				 const std::string &rAddress, 
+				 const std::string &rCity, 
+				 const std::string &rState, 
+				 const std::string &rZip, 
+				 double wOunces, 
+				 double cPerOunce
+				) : senderName(sName),
 					senderaddress(sAddress),
 					senderCity(sCity),
 					senderState(sState),
@@ -68,7 +71,7 @@ Package::Package(const Package& other)
 // Destructor
 Package::~Package()
 {
-	// No memory to free but destructor is defined for completeness
+	// Not sure if this is needed for memory but included for completeness
 
 }
 
@@ -247,9 +250,11 @@ double Package::getCostPerOunce() const
 	return costPerOunce;
 }
 
+// Calculate the total cost of the package
 double Package::calculateCost() const
 {
 	return weightInOunces * costPerOunce;
+
 }
 
 // String representation of the package
@@ -258,21 +263,29 @@ std::string Package::toString() const
 	
 	// return the string representation of the package
 
-	return "Sender: " + senderName + "\n"
-		+ "Address: " + senderaddress + "\n"
-		+ "City: " + senderCity + ", State: " + senderState
-		+ ", Zip: " + senderZip + "\n"
-		+ "Recipient: " + recipientName + "\n"
-		+ "Address: " + recipientaddress + "\n"
-		+ "City: " + recipientCity
-		+ ", State: " + recipientState
-		+ ", Zip: " + recipientZip + "\n"
-		+ "Weight (oz): " + to_string(weightInOunces)
-		+ ", Cost per ounce: $"
-		+ to_string(costPerOunce)
-		+ ", Total Cost: $"
-		+ to_string(calculateCost())
-		+ "\n";
+	ostringstream oss;
+
+	oss << "Sender: " << senderName << "\n"
+		<< "Address: " << senderaddress << "\n"
+		<< "City: " << senderCity << "\n"
+		<< "State: " << senderState << "\n"
+		<< "Zip: " << senderZip << "\n"
+		<< "\n" << "Recipient: " << recipientName << "\n"
+		<< "Address: " << recipientaddress << "\n"
+		<< "City: " << recipientCity << "\n"
+		<< "State: " << recipientState << "\n"
+		<< "Zip: " << recipientZip << "\n"
+		<< "\nPackage Information:\n"
+		<< "Weight(oz) : " << fixed << setprecision(2)
+		<< weightInOunces << "\n"
+		<< "Cost per ounce: $"
+		<< fixed << setprecision(2)
+		<< costPerOunce;
+		
+
+	return oss.str();
 
 	
+	
+		
 }

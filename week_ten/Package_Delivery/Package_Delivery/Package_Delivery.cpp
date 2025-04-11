@@ -8,47 +8,108 @@
 
 #include <iostream>
 #include "Package.h"
+#include "TwoDayPackage.h"
+#include "OvernightPackage.h"
+#include <iomanip>
 
 using namespace std;
 
+//function prototypes
+void packageBase();
+void twoDayPackageTest();
+void overnightPackageTest();
+
 int main()
 {
-   // test package
+	// Invokes the package base class
+	packageBase();
+
+	// Invokes the two day package test
+	twoDayPackageTest();
+
+	// Invokes the overnight package test
+	overnightPackageTest();
+	
+	return 0;
+}
+
+
+// Function for package base class
+void packageBase()
+{
+	// test package
 	Package package1("John Doe",
 		"123 Elm St",
-		"Springfield",
-		"IL",
-		"62701",
+		"Tucson",
+		"AZ",
+		"85735",
 		"Jane Smith",
 		"456 Oak St",
-		"Chicago",
-		"IL",
-		"60601",
+		"Lemoore",
+		"CA",
+		"93245",
 		10.0,
 		2.5);
 
 	// Display package details
 	cout << "Package Details:" << endl;
-	cout << "Sender: " << package1.getSenderName() << endl;
-	cout << "Sender Address: " << package1.getSenderAddress() << endl;
-	cout << "Sender City: " << package1.getSenderCity() << endl;
-	cout << "Sender State: " << package1.getSenderState() << endl;
-	cout << "Sender Zip: " << package1.getSenderZip() << endl;
-	cout << "Recipient: " << package1.getRecipientName() << endl;
-	cout << "Recipient Address: " << package1.getRecipientAddress() << endl;
-	cout << "Recipient City: " << package1.getRecipientCity() << endl;
-	cout << "Recipient State: " << package1.getRecipientState() << endl;
-	cout << "Recipient Zip: " << package1.getRecipientZip() << endl;
-	cout << "Weight (oz): " << package1.getWeightInOunces() << endl;
-	cout << "Cost per ounce: $"
-		<< package1.getCostPerOunce()
-		<< endl;
-	cout.precision(2);
-	cout.setf(ios::fixed);
+	cout << package1.toString() << endl;
 	cout << "Total Cost: $"
-		<< package1.calculateCost()
-		<< endl;
-	return 0;
+		<< fixed << setprecision(2)
+		<< package1.calculateCost() << endl;
+	
+}
+
+// Function for two day package test
+void twoDayPackageTest()
+{
+	// test two day package
+	TwoDayPackage twoDayPackage1("James Smith",
+		"123 Elm St",
+		"Tucson",
+		"AZ",
+		"85735",
+		"John Wick",
+		"456 Oak St",
+		"Lemoore",
+		"CA",
+		"93245",
+		10.0,
+		2.5,
+		5.0);
+
+	// Display two day package details
+	cout << "\nTwo Day Package Details:" << endl;
+	cout << twoDayPackage1.toString() << endl;
+	cout << "Total Cost: $"
+		<< fixed << setprecision(2)
+		<< twoDayPackage1.calculateCost() << endl;
+}
+
+// Function to test overnight package
+void overnightPackageTest()
+{
+	// test overnight package
+	OvernightPackage overnightPackage1("Tony Stark",
+		"123 Elm St",
+		"Tucson",
+		"AZ",
+		"85735",
+		"Peter Parker",
+		"456 Oak St",
+		"Lemoore",
+		"CA",
+		"93245",
+		10.0,
+		2.5,
+		15.0);
+
+	// Display overnight package details
+	cout << "\nOvernight Package Details:" << endl;
+	cout << overnightPackage1.toString() << endl;
+	cout << "Total Cost: $"
+		<< fixed << setprecision(2)
+		<< overnightPackage1.calculateCost() << endl;
 }
 
 
