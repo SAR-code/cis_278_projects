@@ -1,7 +1,7 @@
 /*
 * script: TwoDayPackage.h
 * action: Contains the two day package class
-*		  inheriting from the base package class
+*	  inheriting from the base package class
 * author: D.M
 * date: 10APR25
 */
