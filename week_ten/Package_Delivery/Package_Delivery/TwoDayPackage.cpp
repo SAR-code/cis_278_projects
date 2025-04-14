@@ -1,7 +1,7 @@
 /*
 * script: TwoDayPackage.cpp
 * action: Contains the two day package class
-*		  inheriting from the base package class
+*         inheriting from the base package class
 * author: D.M
 * date: 10APR25
 */
@@ -30,18 +30,18 @@ TwoDayPackage::TwoDayPackage(const string& sName,
 				double cPerOunce, 
 				double flatFee)							
 				: Package(sName, 
-						sAddress, 
-	                    sCity, 
-	                    sState, 
-	                    sZip,
-	                    rName, 
-	                    rAddress, 
-	                    rCity, 
-	                    rState, 
-	                    rZip,
-	                    wOunces, 
-	                    cPerOunce),
-	                    flatFee(flatFee)
+					  sAddress, 
+	                                  sCity, 
+	                                  sState, 
+	                                  sZip,
+	                                  rName, 
+	                                  rAddress, 
+	                                  rCity, 
+	                                  rState, 
+	                                  rZip,
+	                                  wOunces, 
+	                                  cPerOunce),
+	                                  flatFee(flatFee)
 {
 	setFlatFee(flatFee);
 }
