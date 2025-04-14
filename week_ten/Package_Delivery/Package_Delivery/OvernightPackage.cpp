@@ -2,7 +2,7 @@
 /*
 * script: OvernightPackage.cpp
 * action: Contains the two day package class
-*		  inheriting from the base package class
+*         inheriting from the base package class
 * author: D.M
 * date: 10APR25
 */
@@ -29,21 +29,21 @@ OvernightPackage::OvernightPackage(const string& sName,
 				const string& rState, 
 				const string& rZip, 
 				double wOunces, 
-		        double cPerOunce, 
-	            double overnightFee)
+		                double cPerOunce, 
+	                        double overnightFee)
 				: Package(sName,
-						sAddress,
-						sCity,
-						sState,
-						sZip,
-						rName,
-						rAddress,
-						rCity,
-						rState,
-						rZip,
-						wOunces,
-					    cPerOunce),
-						overnightFee(overnightFee)
+					  sAddress,
+					  sCity,
+					  state,
+					  sZip,
+					  rName,
+					  rAddress,
+					  rCity,
+					  rState,
+					  rZip,
+					  wOunces,
+					  cPerOunce),
+					  overnightFee(overnightFee)
 {
 	setOvernightFee(overnightFee);
 }
