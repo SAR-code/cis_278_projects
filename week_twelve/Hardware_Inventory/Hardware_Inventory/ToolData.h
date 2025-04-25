@@ -20,7 +20,7 @@ class ToolData
 public:
 
 	// default constructor
-	explicit ToolData(int = 0, const std::string& = "", int = 0, double = 0.0);
+	ToolData(int = 0, const std::string& = "", int = 0, double = 0.0);
 
 
 	// methods for tool data class
