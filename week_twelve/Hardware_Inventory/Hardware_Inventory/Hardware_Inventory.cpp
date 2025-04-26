@@ -19,33 +19,23 @@
 #define FILE_NAME "hardware.dat"
 using namespace std;
 
-enum class Choice {NEW = 1, UPDATE, PRINT, DELETE, END};
+enum class Choice {NEW = 1, ADD, PRINT, UPDATE, DELETE, END};
 
 // function prototypes
 Choice enterChoice();
-void createToolDataFile();
 void updateToolDataFile();
 void writeToolDataToFile();
 void readToolDataFromFile();
 void deleteToolRecord();
-
 void initializeFile();
 void loadSeededData();
 
 int main()
 {
-	// open file for reading and writing
-	fstream outToolData{ FILE_NAME, ios::in | ios::out | ios::binary };
-
-	// exit program if file cannot be open
-	if (!outToolData) {
-		cerr << "File cannot be opened." << endl;
-		exit(EXIT_FAILURE);
-	}
 
 	// display notes
 	cout << "If you have not created a .dat file first, select option 1 to begin\n";
-	cout << "If you already have a .dat file selecting option 1 will clear the record\n";
+	cout << "If you already have a .dat file selecting option 1 will reset the record\n";
 
 	// stores user choice
 	Choice choice;
@@ -56,11 +46,14 @@ int main()
 		case Choice::NEW:
 				initializeFile();
 				break;
-		case Choice::UPDATE:
+		case Choice::ADD:
 				writeToolDataToFile();
 				break;
 		case Choice::PRINT:
 			    readToolDataFromFile();
+				break;
+		case Choice::UPDATE:
+			    updateToolDataFile();
 				break;
 		case Choice::DELETE:
 				deleteToolRecord();
@@ -72,7 +65,6 @@ int main()
 		}
 	}
 
-
     return 0;
 }
 
@@ -80,15 +72,19 @@ int main()
 // Function to handle user choice
 Choice enterChoice() {
 	
+	// displays menu to the user
 	cout << "\nEnter your choice\n"
 		<< "1 - Initialize default file (resets existing file)\n"
-		<< "2 - Write to file\n"
+		<< "2 - Add or Edit tool inventory\n"
 		<< "3 - List all inventory\n"
-		<< "4 - Delete record\n"
-		<< "5 - End Program\n";
+		<< "4 - Update a record\n"
+		<< "5 - Delete record\n"
+		<< "6 - End Program\n";
 
+	// declare variable to capture user response
 	int menuChoice;
 
+	// returns the user response
 	cin >> menuChoice;
 	return static_cast<Choice>(menuChoice);
 }
@@ -98,7 +94,7 @@ Choice enterChoice() {
 void initializeFile() {
 
 	// open the file
-	fstream file(FILE_NAME, ios::out | ios::binary);
+	ofstream file(FILE_NAME, ios::out | ios::binary);
 
 	// exit the program if errors occur
 	if (!file) {
@@ -116,6 +112,7 @@ void initializeFile() {
 		file.write(reinterpret_cast<const char*>(&emptyRecords), sizeof(ToolData));
 	}
 
+
 	file.close();
 
 	// invoke preloaded records
@@ -125,7 +122,6 @@ void initializeFile() {
 	cout << "\nFile have been initialized.\n";
 
 }
-
 
 // Function to write data to a .dat file
 void writeToolDataToFile(){
@@ -152,6 +148,7 @@ void writeToolDataToFile(){
 	// prompt the user to input record number
 	cin >> recordNum;
 
+
 	// loop until the user enters 0 for record number
 	while (recordNum > 0 && recordNum <= 100)
 	{
@@ -164,11 +161,11 @@ void writeToolDataToFile(){
 		cout << "Enter cost: \n";
 		cin >> cost;
 
-		// create a ToolData object with the user input
+		// create a ToolData object with the user input (move this up)
 		ToolData inventory(recordNum, toolName, quantity, cost);
 
 		// seek position in file of user input record
-		outToolData.seekp((inventory.getRecordNumber() - 1) * sizeof(ToolData));
+		outToolData.seekp(inventory.getRecordNumber() * sizeof(ToolData), ios::beg);
 
 		// write the object to the file
 		outToolData.write(reinterpret_cast<const char*>(&inventory), sizeof(ToolData));
@@ -178,9 +175,9 @@ void writeToolDataToFile(){
 		cin >> recordNum;
 	}
 
-	outToolData.clear();
+	// closes file
+	outToolData.close();
 }
-
 
 // Function to list all the tools in the .dat
 void readToolDataFromFile() {
@@ -204,19 +201,140 @@ void readToolDataFromFile() {
 		<< left << setw(15) << "Cost" << "\n";
 
 	// loops through the inventory in the file
-	while (inToolData.read(reinterpret_cast<char*>(&tool), sizeof(ToolData))) {
-		cout << left << setw(14) << tool.getRecordNumber()
-			<< left << setw(22) << tool.getToolName()
-			<< left << setw(15) << tool.getQuantity()
-			<< fixed << setprecision(2)
-			<< left << setw(15) << tool.getCost() << endl;
+	for (int idx{ 0 }; idx < 100; ++idx) {
+		inToolData.read(reinterpret_cast<char*>(&tool), sizeof(ToolData));
+		if (tool.getRecordNumber() != 0) {
+			cout << left << setw(14) << tool.getRecordNumber()
+				<< left << setw(22) << tool.getToolName()
+				<< left << setw(15) << tool.getQuantity()
+				<< fixed << setprecision(2)
+				<< left << setw(15) << tool.getCost() << endl;
+		}
 	}
+
+	inToolData.close();
 }
 
+// Function updates a tool based on record number
+void updateToolDataFile() {
+
+	// opens the file
+	fstream updateFile(FILE_NAME, ios::in | ios::out | ios::binary);
+
+	// exit the program if errors occur
+	if (!updateFile) {
+		cerr << "Error opening file: " << endl;
+		exit(EXIT_FAILURE);
+	}
+
+	// initialize ToolData
+	ToolData tool;
+	int recordId = tool.getRecordNumber();
+
+	// prompt the user to enter the inventory record number
+	cout << "Enter record ID of tool to update (1 - 100): ";
+	cin >> recordId;
+	
+
+	// checks to see if ID is out of bounds
+	if (recordId < 0 || recordId >= 100) {
+		cout << "Invalid record ID\n";
+		return;
+	}
+
+	// searches inventory for tool ID
+	updateFile.seekg(recordId * sizeof(ToolData), ios::beg);
+	updateFile.read(reinterpret_cast<char*>(&tool), sizeof(ToolData));
+
+	// if tool does not have an Id
+	if (tool.getRecordNumber() == 0) {
+		cout << "No tool with this ID.\n";
+		return;
+	}
+
+	// display found tool name
+	cout << "Current tool: " << tool.getToolName() << '\n';
+	cout << "Enter new tool (select ENTER to keep the same tool): ";
+	cin.ignore();
+	string newTool;
+	getline(cin, newTool);
+
+	// sets the new tool if not empty
+	if (!newTool.empty()) {
+		tool.setToolName(newTool);
+	}
+
+	// display found tool quantity
+	int newNum;
+	cout << "Current quantity: " << tool.getQuantity() << '\n';
+	cout << "Enter new quantity: ";
+	cin >> newNum;
+	tool.setQuantity(newNum);
+
+	// display found tool cost
+	double newCost;
+	cout << "Current cost: " << tool.getCost() << '\n';
+	cout << "Enter new cost: ";
+	cin >> newCost;
+	tool.setCost(newCost);
+
+	// manages the file then closes
+	updateFile.seekp(recordId * sizeof(ToolData), ios::beg);
+	updateFile.write(reinterpret_cast<char*>(&tool), sizeof(ToolData));
+	updateFile.close();
+
+	// display message
+	cout << "Tool Updated \n";
+
+
+}
+
+// Function deletes a selected record
 void deleteToolRecord() {
-	cout << "Hello";
+	
+	// opens the file
+	fstream deleteFile(FILE_NAME, ios::in | ios::out | ios::binary);
+
+	// exit the program if errors occur
+	if (!deleteFile) {
+		cerr << "Error opening file: " << endl;
+		exit(EXIT_FAILURE);
+	}
+
+	ToolData tool;
+	int recordId = tool.getRecordNumber();
+
+	// prompt the user to delete the record selected
+	cout << "Enter tool record ID to delete (1 - 100): ";
+	cin >> recordId;
+
+	// checks the records to see if ID is out of bounds
+	if (recordId < 0 || recordId >= 100) {
+		cout << "Invalid record number.\n";
+		return;
+	}
+
+	// manages the files pointer to confirm tool exists
+	deleteFile.seekg(recordId * sizeof(ToolData), ios::beg);
+	deleteFile.read(reinterpret_cast<char*>(&tool), sizeof(ToolData));
+
+	// inspects the record for non existent IDs
+	if (tool.getRecordNumber() == 0) {
+		cout << "Tool doesn't exist. Record number #" << recordId << ".\n";
+		deleteFile.close();
+		return;
+	}
+
+	// overwrite tools with a blank record
+	ToolData blankRecord = { 0, "", 0, 0.0 };
+	deleteFile.seekp(recordId * sizeof(ToolData), ios::beg);
+	deleteFile.write(reinterpret_cast<char*>(&blankRecord), sizeof(ToolData));
+	deleteFile.close();
+
+	cout << "Tool deleted successfully\n";
 }
 
+// Function preloads information already stored in the inventory
 void loadSeededData() {
 
 	// opens the file
@@ -230,6 +348,7 @@ void loadSeededData() {
 
 	// declares the preloaded data
 	ToolData seededData[] = {
+		
 		{3, "Electric Sander", 7, 57.98},
 		{17, "Hammer", 76, 11.99},
 		{24, "Jig Saw", 21, 11.00},
@@ -240,6 +359,7 @@ void loadSeededData() {
 		{83, "Wrench", 34, 7.50}
 	};
 
+	// iterates through the seeded data
 	for (const auto& tool : seededData) {
 
 		seededFile.seekp(tool.getRecordNumber() * sizeof(ToolData), ios::beg);
@@ -247,6 +367,7 @@ void loadSeededData() {
 			
 	}
 
+	// closes file
 	seededFile.close();
 
 	// display message

@@ -1,6 +1,6 @@
 /*
 * script: ToolData.cpp
-* action: This is contains the ToolData implementation .
+* action: This is contains the ToolData implementation.
 * author: D.M
 * date: 24APR25
 */
@@ -20,7 +20,6 @@ ToolData::ToolData(int recordNum, const string& tName, int qty, double price)
 {
 	// initialize the data members
 	setRecordNumber(recordNum);
-	//setToolName(tName);
 	setQuantity(qty);
 	setCost(price);
 	strncpy_s(toolName, tName.c_str(), sizeof(toolName));
@@ -44,7 +43,7 @@ int ToolData::getRecordNumber() const
 // setters and getters for tool name
 void ToolData::setToolName(const string& tName)
 {
-	//toolName = tName;
+
 	size_t length{ tName.size() };
 	length = (length < 25) ? length : 24;
 	tName.copy(toolName, length);
