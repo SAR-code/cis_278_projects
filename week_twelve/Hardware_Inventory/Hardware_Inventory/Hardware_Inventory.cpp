@@ -44,20 +44,20 @@ int main()
 	while ((choice = enterChoice()) != Choice::END) {
 		switch (choice) {
 		case Choice::NEW:
-				initializeFile();
-				break;
+		     	initializeFile();
+			break;
 		case Choice::ADD:
-				writeToolDataToFile();
-				break;
+			writeToolDataToFile();
+			break;
 		case Choice::PRINT:
-			    readToolDataFromFile();
-				break;
+			readToolDataFromFile();
+			break;
 		case Choice::UPDATE:
-			    updateToolDataFile();
-				break;
+			updateToolDataFile();
+			break;
 		case Choice::DELETE:
-				deleteToolRecord();
-				break;
+			deleteToolRecord();
+			break;
 		default:
 			cerr << "Invalid choice" << endl;
 			break;
