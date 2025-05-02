@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\Hardware_Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|solutionrelative:Hardware_Inventory\\Hardware_Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\ToolData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|solutionrelative:Hardware_Inventory\\ToolData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\ToolData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|solutionrelative:Hardware_Inventory\\ToolData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\Hardware_Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8290EA00-F85E-43BF-8BFE-246537602E4A}|Hardware_Inventory\\Hardware_Inventory.vcxproj|solutionrelative:Hardware_Inventory\\Hardware_Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ToolData.cpp",
               "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\ToolData.cpp",
               "RelativeDocumentMoniker": "Hardware_Inventory\\ToolData.cpp",
               "ToolTip": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\ToolData.cpp",
               "RelativeToolTip": "Hardware_Inventory\\ToolData.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-24T20:19:22.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ToolData.h",
               "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\ToolData.h",
               "RelativeDocumentMoniker": "Hardware_Inventory\\ToolData.h",
               "ToolTip": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\ToolData.h",
               "RelativeToolTip": "Hardware_Inventory\\ToolData.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-24T20:06:29.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Hardware_Inventory.cpp",
               "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\Hardware_Inventory.cpp",
               "RelativeDocumentMoniker": "Hardware_Inventory\\Hardware_Inventory.cpp",
-              "ToolTip": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\Hardware_Inventory.cpp*",
-              "RelativeToolTip": "Hardware_Inventory\\Hardware_Inventory.cpp*",
-              "ViewState": "AgIAADABAAAAAAAAAAAqwEIBAAAuAAAAAAAAAA==",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_twelve\\Hardware_Inventory\\Hardware_Inventory\\Hardware_Inventory.cpp",
+              "RelativeToolTip": "Hardware_Inventory\\Hardware_Inventory.cpp",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-24T19:15:15.508Z",
               "EditorCaption": ""
