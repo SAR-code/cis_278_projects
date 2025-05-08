@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_fourteen\\Backwards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{021279C9-642A-4D6B-A189-4A290365308A}|Backwards\\Backwards.vcxproj|C:\\Github\\cis_278_projects\\week_fourteen\\Backwards\\Backwards\\Backwards.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{021279C9-642A-4D6B-A189-4A290365308A}|Backwards\\Backwards.vcxproj|solutionrelative:Backwards\\Backwards.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Backwards.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fourteen\\Backwards\\Backwards\\Backwards.cpp",
+              "RelativeDocumentMoniker": "Backwards\\Backwards.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fourteen\\Backwards\\Backwards\\Backwards.cpp",
+              "RelativeToolTip": "Backwards\\Backwards.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-08T02:21:17.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
