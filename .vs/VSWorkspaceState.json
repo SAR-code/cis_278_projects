@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\week_fourteen",
+    "\\week_fourteen\\Hangman",
+    "\\week_fourteen\\Hangman\\Hangman"
   ],
+  "SelectedNode": "\\week_fourteen\\Hangman\\Hangman.sln",
   "PreviewInSolutionExplorer": false
 }
