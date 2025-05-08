@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{0EDB15FA-44C1-4EDC-9EDF-3F8661CBB11D}|Hangman\\Hangman.vcxproj|solutionrelative:Hangman\\Hangman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\words.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hangman\\words.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EDB15FA-44C1-4EDC-9EDF-3F8661CBB11D}|Hangman\\Hangman.vcxproj|C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0EDB15FA-44C1-4EDC-9EDF-3F8661CBB11D}|Hangman\\Hangman.vcxproj|solutionrelative:Hangman\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -34,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "words.txt",
-              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\words.txt",
-              "RelativeDocumentMoniker": "Hangman\\words.txt",
-              "ToolTip": "C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\words.txt",
-              "RelativeToolTip": "Hangman\\words.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-08T01:36:41.271Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -90,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\Game.h",
               "RelativeDocumentMoniker": "Hangman\\Game.h",
@@ -103,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\Game.cpp",
               "RelativeDocumentMoniker": "Hangman\\Game.cpp",

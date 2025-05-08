@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\WordReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hangman\\WordReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0EDB15FA-44C1-4EDC-9EDF-3F8661CBB11D}|Hangman\\Hangman.vcxproj|C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\WordReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0EDB15FA-44C1-4EDC-9EDF-3F8661CBB11D}|Hangman\\Hangman.vcxproj|solutionrelative:Hangman\\WordReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EDB15FA-44C1-4EDC-9EDF-3F8661CBB11D}|Hangman\\Hangman.vcxproj|C:\\Github\\cis_278_projects\\week_fourteen\\Hangman\\Hangman\\WordReader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Hangman\\WordReader.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-08T00:56:38.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T00:56:38.081Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Hangman\\Hangman.cpp",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-08T00:54:36.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T00:54:36.263Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Hangman\\Game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-08T00:49:36.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T00:49:36.92Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Hangman\\Game.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-08T00:48:03.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T00:48:03.919Z"
             }
           ]
         }
