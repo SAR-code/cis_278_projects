@@ -29,7 +29,7 @@ int main()
     // Get the user input
     getline(cin, user_input);
 
-	// Invoke the function with the user input
+    // Invoke the function with the user input
     reverseString(user_input);
 
     return 0;
