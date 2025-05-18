@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SMA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\SMA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SMA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\SMA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Agent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\Agent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Agent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\Agent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Visualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\Visualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Visualizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\Visualizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SlimeMould.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{61ABE126-8A3F-41EB-8978-E533C910550C}|SlimeMould\\SlimeMould.vcxproj|solutionrelative:SlimeMould\\SlimeMould.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SMA.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SMA.cpp",
+              "RelativeDocumentMoniker": "SlimeMould\\SMA.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SMA.cpp",
+              "RelativeToolTip": "SlimeMould\\SMA.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-18T00:41:26.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SMA.h",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SMA.h",
+              "RelativeDocumentMoniker": "SlimeMould\\SMA.h",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SMA.h",
+              "RelativeToolTip": "SlimeMould\\SMA.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-18T00:41:25.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Agent.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Agent.cpp",
+              "RelativeDocumentMoniker": "SlimeMould\\Agent.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Agent.cpp*",
+              "RelativeToolTip": "SlimeMould\\Agent.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-18T00:41:12.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Agent.h",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Agent.h",
+              "RelativeDocumentMoniker": "SlimeMould\\Agent.h",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Agent.h*",
+              "RelativeToolTip": "SlimeMould\\Agent.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-18T00:41:11.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utils.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Utils.cpp",
+              "RelativeDocumentMoniker": "SlimeMould\\Utils.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Utils.cpp",
+              "RelativeToolTip": "SlimeMould\\Utils.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-17T23:34:53.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Utils.h",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Utils.h",
+              "RelativeDocumentMoniker": "SlimeMould\\Utils.h",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Utils.h",
+              "RelativeToolTip": "SlimeMould\\Utils.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-17T23:34:30.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Visualizer.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Visualizer.cpp",
+              "RelativeDocumentMoniker": "SlimeMould\\Visualizer.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Visualizer.cpp",
+              "RelativeToolTip": "SlimeMould\\Visualizer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-17T23:33:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Visualizer.h",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Visualizer.h",
+              "RelativeDocumentMoniker": "SlimeMould\\Visualizer.h",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\Visualizer.h",
+              "RelativeToolTip": "SlimeMould\\Visualizer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-17T23:33:08.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SlimeMould.cpp",
+              "DocumentMoniker": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SlimeMould.cpp",
+              "RelativeDocumentMoniker": "SlimeMould\\SlimeMould.cpp",
+              "ToolTip": "C:\\Github\\cis_278_projects\\week_fifteen\\SlimeMould\\SlimeMould\\SlimeMould.cpp",
+              "RelativeToolTip": "SlimeMould\\SlimeMould.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-17T23:00:18.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
