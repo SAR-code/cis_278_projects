@@ -1,0 +1,7 @@
+﻿  Agent.cpp
+C:\Github\cis_278_projects\week_fifteen\SlimeMould\SlimeMould\Agent.cpp(22,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  SMA.cpp
+  SlimeMould.cpp
+  Visualizer.cpp
+  Generating Code...
+  SlimeMould.vcxproj -> C:\Github\cis_278_projects\week_fifteen\SlimeMould\x64\Debug\SlimeMould.exe
